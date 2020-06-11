@@ -1,0 +1,10 @@
+@font-face{
+    font-family: Open sans;
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf')
+
+}
+
+@font-face{
+    font-family: Comfortaa;
+    src: url('../fonts/Comfortaa/static/Comfortaa-Regular.ttf');
+}

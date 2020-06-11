@@ -1,0 +1,357 @@
+@import url('../css/fonts.css');
+
+
+html,body{
+  margin: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+}
+
+:root{
+    /*---------- Theme Colors -------------------*/
+ --white:#ffffff;
+ --yellow: #FFD337;
+ --oliveGreen: #318071;
+ --darkGreen:#274A44;
+ --dark: #242728;
+
+/*--------------- Theme font family --------------*/
+ --Comfortaa: 'Comfortaa', cursive;
+ --OpenSans: 'Open sans', cursive;
+
+}
+
+
+ /*------------- Global Section ----------------------*/
+ a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h1{
+  margin: 0;
+}
+
+h2{
+  font-family: var(--Comfortaa);
+  color: var(--white);
+  font-size: 52px;
+line-height: 120%;
+margin: 0;
+font-style: normal;
+font-weight: normal;
+
+}
+
+p{
+  font-family: var(--OpenSans);
+  
+}
+
+button.btn{
+  width: 303px;
+height: 60px;
+background:var(--yellow);
+border: none;
+border-radius: 4px;
+text-transform: uppercase;
+font-family: var(--Comfortaa);
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0.3px;
+}
+
+input{
+  width: 310px;
+height: 54px;
+left: 175px;
+top: 4555px;
+
+background: #FFFFFF;
+border: 1px solid #FFD337;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+nav{
+  background-image: url('../assets/Navigation.png');
+  background-size: cover;
+}
+
+.line {
+ background: url('../assets/main\ background.png');
+  background-repeat: no-repeat;
+ 
+}
+
+/*-------------- Navbar section ----------------------*/
+ .nav-menu {
+     display:flex;
+     justify-content: space-between;
+ }
+
+ .nav .logo{
+   margin-top: 13px;
+   margin-left: 64px;
+  
+ }
+
+ .nav .nav-items{
+   display: flex;
+   margin: 0;
+ }
+
+ .nav .nav-items .nav-link{
+  padding: 1.6rem 1rem;
+  
+ }
+
+ .nav .nav-items .nav-link a{
+color: var(--white);
+ }
+ .nav  .nav-call a{
+color: var(--white);
+ }
+
+ .nav .nav-call{
+   margin-right: 69px;
+   padding:1.6rem 0rem;
+ }
+
+ .nav .nav-items li{
+   font-family: var(--Comfortaa);
+   
+ }
+
+ .nav .nav-call a{
+  font-family: var(--Comfortaa);
+ }
+
+ /*-------------- Hero section (landing page) ---------------*/
+
+ main .site-title {
+  background: url('../assets/Hero\ landing\ page.png');
+ background-size: cover;
+ height: 93vh;
+  
+ }
+
+ main .site-background{
+  padding-top: 232px;
+  padding-left: 66px;
+ }
+
+ main .hero-paragraph{
+   margin-top: 33px;
+   line-height: 170%
+ }
+ .site-background p{
+  color: var(--white);
+  font-style: normal;
+font-weight: normal;
+font-size: 18px;
+ }
+
+ main .hero-btn{
+   margin-top: 116px;
+ }
+
+
+ /*--------------------- Slideshow -------------------------*/
+
+main .flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container .flex-1{
+
+}
+.flex-container .flex-2{
+ 
+  
+  
+}
+
+.flex-container .connect-with-us{
+  width: 644px;
+   border-radius: 40px;
+   background-color: var(--darkGreen);
+   padding: 48px;
+   align-items: right;
+   margin-top: 185px;
+   margin-right: 65px;
+   
+}
+
+.flex-container .connect-with-us h3{
+font-family: var(--Comfortaa);
+color: var(--white);
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+}
+
+.flex-container .connect-with-us p,ul{
+  font-family: var(--OpenSans);
+  color: var(--white);
+  font-style: normal;
+font-weight: normal;
+font-size: 18px;
+}
+
+/*--------------------- SECTION 2 -------------------------*/
+
+main .flex-container2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 185px;
+
+}
+
+.flex-container2 .why-use-us{
+  width: 644px;
+  background-color: var(--darkGreen);
+  padding: 48px;
+  border-radius: 40px;
+}
+
+
+.flex-container2 .why-use-us h3{
+  font-family: var(--Comfortaa);
+color: var(--yellow);
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+}
+
+.flex-container2 .why-use-us p,li {
+  color: var(--white);
+  font-family: var(--OpenSans);
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+}
+.flex-container2 .why-use-us li {
+  color: var(--white);
+  font-family: var(--OpenSans);
+  font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+}
+
+.flex-container2 .sect2-flex2 img{
+margin: 62px 64px 0px 0px;
+}
+
+/*--------------------- Section 3 -------------------------*/
+
+main .parent-wrapper{
+display: flex;
+  justify-content: space-between;
+  margin-top: 183px;
+}
+
+section .service-wrapper{
+  display: grid;
+  grid-template-columns: 310px 310px;
+  grid-column-gap: 23px;
+  grid-row-gap: 23px;
+  
+}
+
+section .img-wrapper{
+  float: left;
+}
+section .service-wrapper .service{
+  width: 310px;
+height: 103px;
+
+background: #274A44;
+border-radius: 10px;
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 120%;
+color: var(--white);
+text-align: center;
+
+}
+
+section .service-wrapper .service h5{
+
+}
+
+
+/*------------------ Mortgage calculator -------------------*/
+
+
+main .flex-formAndTitle{
+  display: flex;
+}
+
+
+main .formAndTitle{
+background-color: var(--oliveGreen);
+
+}
+main .img-formAndTitle{
+ 
+}
+
+main .calculator-wrapper .MT-calculator{
+  width: 222.68px;
+  height: 102px;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color:var(--dark);
+
+}
+main .calculator-wrapper .MT-calculator p{
+  margin: 0;
+}
+
+
+
+/*--------------------- Footer ----------------*/
+
+footer{
+  display: flex;
+justify-content: space-between;
+}
+
+footer .parent{
+  display: flex;
+  margin: 90px 0px 112px 180px;
+}
+
+footer .parent-logo img{
+  position: relative;
+  bottom: 0;
+  margin-top: 212px;
+}
+footer .parent-logo{
+margin-right: 69px;
+}
+
+footer .child p{
+  margin: 0;
+}
+
+footer .right{
+  margin-right: 64px;
+}
